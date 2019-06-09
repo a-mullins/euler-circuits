@@ -2,7 +2,7 @@
 
 The included C++ program will generate all Euler circuits on the
 complete graph of 5 vertices. By default it generates all circuits on
-one only vertex, but using the -a switch will cause it to generate all
+only one vertex, but using the -a switch will cause it to generate all
 circuits on all vertices.
 
 The program writes the paths to stdout, one path per line. This makes
@@ -26,7 +26,7 @@ Since I can see arguments for both sides, I also wrote a small script to prune
 away circuits that might be considered duplicates.
 
 ->    Prune 	      : python prune.py < circuits > prunes
-->    Count prunes    : wc -l prunes
+->    Count prunes  : wc -l prunes
 
 
 
